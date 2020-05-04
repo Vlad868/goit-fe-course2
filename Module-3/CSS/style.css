@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    font-family: "Playfair Display";
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 0px;
+}
+
+ul {
+    font-family: "Playfair Display";
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+.Life:nth-child(2n) {
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.Life:nth-child(5n) {
+    margin-bottom: 0px;
+}
+
+.Life {
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 126px;
+}
+
+.Life:last-child {
+    margin-bottom: 0px;
+}
+
+a:hover {
+    color: #57c6f8;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav a {
+    color: #626262;
+}
+
+header nav {
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 100px 0px 102px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lifestyle {
+    color: #b4ad9e;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 28px;
+}
+
+.heading {
+    color: #626262;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 34px;
+}
+
+.text {
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.load {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    color: #626262;
+    width: 160px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 58px;
+    margin-bottom: 70px;
+}
